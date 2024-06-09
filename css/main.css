@@ -1,0 +1,196 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,ol{
+  list-style: none;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+/* body{
+  background-image: url(./../img/bigdog.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+
+} */
+
+/*/header/*/
+.zooovheader{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  position: fixed;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+.header__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+}
+.header__link{
+  color: rgb(191, 226, 87);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+}
+:hover.header__link{
+  color: brown;
+}
+
+/* main */
+
+.oval{
+  width: 200px;
+  position:absolute;
+  left: 300px;
+}
+.bigdog{
+  background-image: url(./../img/bigdog.png);
+  background-repeat: no-repeat;
+  background-size:inherit;
+  height: 100vh;
+  background-position: center; 
+  margin-bottom: 160px;
+}
+.content{
+  width: 400px;
+ padding-top: 150px;
+ margin-left: 100px;
+}
+.content__tit{
+  color: rgb(255, 255, 255);
+font-family: Oswald;
+font-size: 54px;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 2%;
+text-align: left;
+margin-bottom: 12px;
+}
+.content__text{
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.content__btn{
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+border: none;
+padding: 13px 42px;
+background: rgb(150, 25, 20);
+}
+
+.whatbarf{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.whatbarf__content{
+  width: 584px;
+}
+.whatbarf__tit{
+  color: rgb(0, 0, 0);
+font-family: Oswald;
+font-size: 46px;
+font-weight: 700;
+margin-bottom: 32px;
+}
+.whatbarf__text{
+  color: rgb(67, 66, 66);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+.whatbarf__img{
+  width: 588px;
+}
+.whatbarf__list{
+  list-style:disc;
+}
+.whatbarf__title{
+  color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 130%;
+margin-bottom: 16px;
+}
+.whatbarf__item{
+  color: rgb(67, 66, 66);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+}
+.whatbarf__item::marker{
+color:rgb(150, 25, 20);
+}
+
+
+
+.eats{
+ background: rgb(234, 209, 208);
+margin-top: 80px;
+display: flex;
+gap: 150px;
+}
+.eats__tit{
+  color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 200%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+margin-bottom: 16px;
+padding-top: 36px;
+margin-left: 80px;
+}
+.eats__item{
+  align-items: center;
+  margin-bottom: 8px;
+}
+.eats__img{
+  width: 20px;
+}
+.eats__content{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-left: 80px;
+padding-top: 32px;
+  padding-bottom: 32px;
+}
+.listitem{
+  margin-bottom: 20px;
+}
+.eats__list2{
+  padding-top: 40px;
+}
