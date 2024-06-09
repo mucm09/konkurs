@@ -456,3 +456,45 @@ text-align: left;
 
 
 
+.vapros{
+  display: flex;
+  justify-content: space-between;
+}
+.vapros__tit{
+  color: rgb(0, 0, 0);
+  font-family: Oswald;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.vapros__img{
+  width: 20px;
+}
+.vapros__title{
+  color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+margin-top: 15px
+}
+.vapros__text{
+  color: rgb(67, 66, 66);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.vapros__item{
+  width: 776px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
