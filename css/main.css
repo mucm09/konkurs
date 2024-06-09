@@ -219,6 +219,9 @@ padding-top: 32px;
 
 
 
+.rations{
+  margin-bottom: 180px;
+}
 .rule{
   display: flex;
   justify-content: space-between;
@@ -369,4 +372,62 @@ background-color: white;
 :active.line__btn{
   background-color: rgb(177, 69, 69);
   color: white;
+}
+
+
+
+
+.why{
+  background-image: url(./../img/ruler.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.why__tit{
+  color: rgb(0, 0, 0);
+font-family: Oswald;
+font-size: 46px;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 2%;
+text-align: left;
+margin-bottom: 60px;
+}
+.why__item1{
+  width: 280px;
+}
+.why__img{
+  width: 28px;
+  margin-bottom: 6px;
+}
+.why__item2{
+  width: 281px;
+}
+.why__item3{
+  width: 220px;
+}
+.why__item4{
+  width: 282px;
+}
+.why__title{
+  color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 8px;
+}
+.why__text{
+  color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.why__list{
+  display: flex;
+  justify-content: space-between;
 }
