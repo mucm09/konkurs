@@ -378,9 +378,10 @@ background-color: white;
 
 
 .why{
-  background-image: url(./../img/ruler.png);
+  background-image: url(./../img/ruler2.png);
   background-repeat:no-repeat;
-  background-size:cover;
+  background-position:center;
+  margin-bottom: 170px;
 }
 .why__tit{
   color: rgb(0, 0, 0);
@@ -430,4 +431,25 @@ text-align: left;
 .why__list{
   display: flex;
   justify-content: space-between;
+}
+
+
+
+
+
+.about{
+   background: rgb(255, 244, 243);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 100px;
+   padding-bottom: 58px;
+   margin-bottom: 170px;
+}
+.about__img{
+  width: 611px;
+}
+.about__content{
+  width: 523px;
+  margin-right: 40px;
 }
